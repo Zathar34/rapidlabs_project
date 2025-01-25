@@ -1,0 +1,10 @@
+# Directories to ignore
+AllHockey.v1i.yolov11/
+__pycache__/
+venv/
+
+# Files to ignore
+yolo11n.pt
+yolo11x.pt
+Puck-Track-Test-Video.mp4
+runs/detect/yolov11_icehockey_puck5/weights
