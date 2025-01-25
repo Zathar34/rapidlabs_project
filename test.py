@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 
 # Load the trained model
-model = YOLO('runs/detect/yolov11_icehockey_puck5/weights/best.pt')  # Path to your trained model
+model = YOLO('best.pt')  # Path to your trained model
 
 # Run inference on the test video
 results = model.track(

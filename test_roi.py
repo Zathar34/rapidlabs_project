@@ -4,7 +4,7 @@ import numpy as np
 
 def process_video_with_zoom():
     # Load the model
-    model = YOLO('runs/detect/yolov11_icehockey_puck5/weights/best.pt')
+    model = YOLO('best.pt')
     
     # Open the video
     video_path = 'Puck-Track-Test-Video.mp4'
